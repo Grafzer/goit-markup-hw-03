@@ -20,6 +20,17 @@ body {
 	background-color: var(--secondary-background-color);
 }
 
+.container {
+	width: 1200px;
+	
+	justify-content: center;
+}
+
+.header {
+	display: flex;
+	align-items: baseline;
+}
+
 .logo-header {
 	font-family: "Raleway";
 	font-style: normal;
@@ -43,16 +54,16 @@ body {
 	color: var(--logo-color);
 }
 
+.navigation {
+	display: flex;
+}
+
 .navigation-link {
 	text-decoration: none;
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--main-color);
-}
-
-.current {
-	color: var(--logo-color);
 }
 
 .contact-mail-header {
@@ -68,8 +79,6 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--secondary-color);
 }
-
-
 
 hr {
 	border: 1px solid var(--line-color);
