@@ -10,6 +10,7 @@
 	--icon-color: #afb1b8;
 	--footer-color: #2f303a;
 	--secondary-background-color: #ffffff;
+	--temporary-color: aqua;
 }
 
 body {
@@ -22,13 +23,14 @@ body {
 
 .container {
 	width: 1200px;
-	
-	justify-content: center;
 }
 
 .header {
 	display: flex;
-	align-items: baseline;
+	height: 80px;
+	align-items: center;
+	justify-content: space-around;
+	background-color: var(--temporary-color);
 }
 
 .logo-header {
@@ -56,15 +58,21 @@ body {
 
 .navigation {
 	display: flex;
+	justify-content: space-between;
+	width: 254px;
 }
 
 .navigation-link {
+	display: block;
 	text-decoration: none;
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--main-color);
+	padding: 15px;
 }
+
+
 
 .contact-mail-header {
 	font-weight: 500;
