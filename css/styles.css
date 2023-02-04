@@ -92,17 +92,29 @@ hr {
 	border: 1px solid var(--line-color);
 }
 
+.banner {
+	text-align: center;
+	display: block;
+	  padding-top: 200px;
+  padding-bottom: 200px;
+	background-color: var(--footer-color);
+	height: 1000px
+}
+
 .banner-text {
+margin-top: 0px;
+  margin-bottom: 30px;
+	width: 692px;
+	height: 120px;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--secondary-background-color);
-}
 
-.banner {
-	background-color: var(--footer-color);
+	
+	
 }
 
 .menu {
