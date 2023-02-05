@@ -34,7 +34,7 @@ body {
 	height: 80px;
 	align-items: center;
 	justify-content: space-around;
-	background-color: var(--temporary-color);
+	/* background-color: var(--temporary-color); */
 }
 
 .logo-header {
@@ -114,10 +114,25 @@ hr {
 .menu {
 	font-size: 16px;
 	line-height: 1.62;
+	padding-top: 77px;
+	padding-bottom: 94px;
+}
+
+.menu-buttons {
+	display: flex;
 }
 
 ul {
 	list-style-type: none;
+}
+
+.card-set {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tile {
+	padding: 10px;
 }
 
 .portfolio-button {
@@ -126,8 +141,13 @@ ul {
 	font-size: 16px;
 	line-height: 1.62;
 	letter-spacing: 0.03em;
+	margin: 8px;
+	height: 38px;
+	border-radius: 4px;
+	padding: 6px 22px;
 	cursor: pointer;
 	color: var(--main-color);
+	border-color: var(--button-background-color);
 	background-color: var(--button-background-color);
 }
 

@@ -18,29 +18,31 @@
 		<title>goit-markup-hw-03</title>
 	</head>
 	<body>
-		<header>
+		<header class="header container">
 			<a class="logo-header" href="index.html">
 				Web
 				<span class="logo-black">Studio</span>
 			</a>
 			<nav>
 				<ul class="navigation">
-					<li><a class="navigation-link current" href="index.html">Agencja</a></li>
-					<li><a class="navigation-link current" href="portfolio.html">Portfolio</a></li>
-					<li><a class="navigation-link current" href="index.html">Kontakty</a></li>
+					<li><a class="navigation-link" href="index.html">Agencja</a></li>
+					<li><a class="navigation-link" href="portfolio.html">Portfolio</a></li>
+					<li><a class="navigation-link" href="index.html">Kontakty</a></li>
 				</ul>
 			</nav>
-			<div>
+			<div class="contacts">
 				<a class="contact-mail-header" href="info@devstudio.com">info@devstudio.com</a>
 				<a class="contact-phone-header" href="+48111111111">+48 111 111 111</a>
-				<hr />
+			
 			</div>
+			
 		</header>
+		<hr>
 
 		<main>
-			<section class="menu">
+			<section class="menu container">
 				<h1 class="visually-hidden">portfolio</h1>
-				<ul>
+				<ul class="menu-buttons">
 					<li><button class="portfolio-button" type="button">Wszystkie</button></li>
 					<li><button class="portfolio-button" type="button">Strony</button></li>
 					<li><button class="portfolio-button" type="button">Aplikacje</button></li>
@@ -48,9 +50,9 @@
 					<li><button class="portfolio-button" type="button">Marketing</button></li>
 				</ul>
 
-				<ul>
+				<ul class="card-set container">
 					<!--names of claasses correspond to tiles marked according to their position with the first row marked as top-->
-					<li class="top-left">
+					<li class="top-left tile">
 						<img
 							src="./images/technocrack.jpg"
 							alt="portfolio_presentation_of_staff_in_firm"
@@ -61,7 +63,7 @@
 						<p class="tile-subheader">Strona Internetowa</p>
 					</li>
 
-					<li class="top-center">
+					<li class="top-center tile">
 						<img
 							src="./images/new_orlean_vs_golden_star.jpg"
 							alt="graphics_of_two_basketball_players_from_opposites_teams"
@@ -72,19 +74,19 @@
 						<p class="tile-subheader">Dizajn</p>
 					</li>
 
-					<li class="top-right">
+					<li class="top-right tile">
 						<img src="./images/seafood_restaurant.jpg" alt="logo_of_seafood_restaurant" width="370" height="294" />
 						<h2 class="tile-header">Restauracja Seafood</h2>
 						<p class="tile-subheader">Aplikacja</p>
 					</li>
 
-					<li class="center-left">
+					<li class="center-left tile">
 						<img src="./images/project_prime.jpg" alt="image_of_black_headphones" width="370" height="294" />
 						<h2 class="tile-header">Projekt Prime</h2>
 						<p class="tile-subheader">Marketing</p>
 					</li>
 
-					<li class="center-center">
+					<li class="center-center tile">
 						<img
 							src="./images/project_boxes.jpg"
 							alt="graphic_of_two_boxes_with_different_shapes_and_colours"
@@ -95,7 +97,7 @@
 						<p class="tile-subheader">Aplikacja</p>
 					</li>
 
-					<li class="center-right">
+					<li class="center-right tile">
 						<img
 							src="./images/inspiration_has_no_borders.jpg"
 							alt="computer_screen_with_worldwide_map"
@@ -106,7 +108,7 @@
 						<p class="tile-subheader">Strona internetowa</p>
 					</li>
 
-					<li class="bottom-left">
+					<li class="bottom-left tile">
 						<img
 							src="./images/magazyn_limited_edition.jpg"
 							alt="paper_magazine_with_title_limited_edition"
@@ -117,7 +119,7 @@
 						<p class="tile-subheader">Dizajn</p>
 					</li>
 
-					<li class="bottom-center">
+					<li class="bottom-center tile">
 						<img
 							src="./images/projekt_lab.jpg"
 							alt="picture_of_white_label_with_words_label_tag"
@@ -128,7 +130,7 @@
 						<p class="tile-subheader">Marketing</p>
 					</li>
 
-					<li class="bottom-right">
+					<li class="bottom-right tile">
 						<img
 							src="./images/growing_business.jpg"
 							alt="man_usign_a_laptop_screen_about_growing_business_in_firm"
@@ -142,7 +144,7 @@
 			</section>
 		</main>
 
-		<footer class="footer">
+		<footer class="footer container">
 			<div class="logo-footer">
 				<a class="logo-header" href="index.html">
 					Web
