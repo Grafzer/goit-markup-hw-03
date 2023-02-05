@@ -10,6 +10,7 @@
 	--icon-color: #afb1b8;
 	--footer-color: #2f303a;
 	--secondary-background-color: #ffffff;
+	--border-tile-color: #eeeeee;
 	--temporary-color: aqua;
 }
 
@@ -132,7 +133,21 @@ ul {
 }
 
 .tile {
-	padding: 10px;
+  width: 370px;
+  border: 1px solid var(--border-tile-color);
+  margin-right: 30px;
+  margin-bottom: 30px; 
+}
+
+.tile:nth-child(3n) {
+  margin-right: 0px;
+}
+.tile:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
+.tile-text {
+  padding: 20px 24px;
 }
 
 .portfolio-button {
