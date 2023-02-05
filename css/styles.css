@@ -225,6 +225,7 @@ ul {
 }
 
 .staff-section {
+	height: 648px;
 	background-color: var(--button-background-color);
 }
 
@@ -233,6 +234,13 @@ ul {
 	font-size: 36px;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+.workplace-list {
+	display: flex;
+	justify-content: space-around;
+
 }
 
 .workplace {
