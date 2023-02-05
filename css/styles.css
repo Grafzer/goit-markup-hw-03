@@ -225,6 +225,8 @@ ul {
 }
 
 .staff-section {
+	padding-top: 94px;
+	padding-bottom: 50px;
 	height: 648px;
 	background-color: var(--button-background-color);
 }
@@ -240,7 +242,6 @@ ul {
 .workplace-list {
 	display: flex;
 	justify-content: space-around;
-
 }
 
 .workplace {
