@@ -22,6 +22,10 @@ body {
 }
 
 .container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
 	width: 1200px;
 }
 
@@ -177,8 +181,6 @@ ul {
 
 .lorem-list {
 	display: flex;
-	
-
 	height: 101px;
 	width: 1170px;
 }
@@ -189,8 +191,6 @@ ul {
 }
 
 .lorem4header {
-	margin-top: 0px;
-	margin-bottom: 10px;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -200,8 +200,9 @@ ul {
 }
 
 .lorem4text {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	width: 270px;
+	height: 75px;
+
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -214,7 +215,17 @@ ul {
 	font-size: 36px;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
+	text-align: center;
 	color: var(--main-color);
+}
+
+.jobs-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.staff-section {
+	background-color: var(--button-background-color);
 }
 
 .our-staff {
@@ -222,7 +233,14 @@ ul {
 	font-size: 36px;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
-	background-color: var(--button-background-color);
+}
+
+.workplace {
+	background-color: var(--secondary-background-color);
+	border-radius: 10px;
+	text-align: center;
+	width: 270px;
+	height: 368px;
 }
 
 .staff-names {
