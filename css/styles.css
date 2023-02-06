@@ -34,11 +34,17 @@ body {
 	color: var(--logo-color);
 }
 
+.container {
+	display: flex;
+	align-items: center;
+}
+
 .header {
 	display: flex;
 	height: 80px;
 	align-items: center;
 	justify-content: space-around;
+	border-bottom: 1px solid var(--secondary-background-color);
 	/* background-color: var(--temporary-color); */
 }
 
@@ -61,14 +67,17 @@ body {
 	color: var(--secondary-background-color);
 }
 
+nav {
+	margin-left: 93px;
+}
+
 .navigation-link:hover {
 	color: var(--logo-color);
 }
 
 .navigation {
 	display: flex;
-	justify-content: space-between;
-	width: 254px;
+	gap: 46px;
 }
 
 .navigation-link {
@@ -78,7 +87,13 @@ body {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--main-color);
-	padding: 15px;
+	padding: 32px 0;
+}
+
+.contacts {
+	display: flex;
+	gap: 50px;
+	margin-left: auto;
 }
 
 .contact-mail-header {
@@ -100,15 +115,13 @@ hr {
 }
 
 .banner {
-	height: 600px;
-	margin: 0px;
 	padding: 200px 0px;
 	text-align: center;
 	background-color: var(--footer-color);
 }
 
 .banner-text {
-	margin-top: 0px;
+	margin: 0 auto;
 	margin-bottom: 30px;
 	width: 696px;
 	font-weight: 900;
@@ -135,6 +148,8 @@ hr {
 
 ul {
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .grid-tile-set {
@@ -224,13 +239,10 @@ ul {
 .lorem-list {
 	display: flex;
 	gap: 30px;
-	height: 101px;
-	justify-content: center;
 }
 
 .lorem-article {
 	width: 270px;
-	height: 101px;
 }
 
 .lorem4header {
@@ -243,14 +255,12 @@ ul {
 }
 
 .lorem4text {
-	width: 270px;
-	height: 75px;
-
-	font-weight: 400;
-	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 	color: var(--secondary-color);
+}
+
+.jobs-section {
+	padding: 94px 0;
 }
 
 .what-we-do {
