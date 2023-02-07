@@ -14,6 +14,21 @@
 	--temporary-color: aqua;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+}
+
+section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
 body {
 	font-family: var(--main-font);
 	color: var(--main-color);
@@ -32,11 +47,6 @@ body {
 
 .current:active {
 	color: var(--logo-color);
-}
-
-.container {
-	display: flex;
-	align-items: center;
 }
 
 .header {
@@ -115,28 +125,47 @@ hr {
 }
 
 .banner {
+
+	height: 600px;
+	margin: 0px;
 	padding: 200px 0px;
 	text-align: center;
 	background-color: var(--footer-color);
 }
 
 .banner-text {
-	margin: 0 auto;
-	margin-bottom: 30px;
-	width: 696px;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	letter-spacing: 0.06em;
 	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	width: 696px;
+	margin: 0 auto;
+	margin-bottom: 30px;
 	color: var(--secondary-background-color);
 }
 
-.menu {
+.banner-button {
+
+	font-weight: 700;
 	font-size: 16px;
-	line-height: 1.62;
-	padding-top: 77px;
-	padding-bottom: 94px;
+	line-height: 1.88;
+	background-color: var(--logo-color);
+	color: var(--secondary-background-color);
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 0.06em;
+	border: none;
+	min-width: 200px;
+	border-radius: 4px;
+	padding: 10px 42px;
+}
+
+button:hover {
+	background-color: var(--logo-color);
+	color: var(--secondary-text-color);
+	cursor: pointer;
 }
 
 .menu-buttons {
@@ -236,13 +265,22 @@ ul {
 	margin-bottom: 9px;
 }
 
+.lorem-section {
+	padding-bottom: 0px;
+	margin: 0px;
+	justify-content: space-between;
+	gap: 30px;
+}
+
 .lorem-list {
 	display: flex;
 	gap: 30px;
+	justify-content: center;
 }
 
 .lorem-article {
 	width: 270px;
+	height: 101px;
 }
 
 .lorem4header {
@@ -252,14 +290,17 @@ ul {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--main-color);
+	margin-bottom: 10px;
 }
 
 .lorem4text {
 	line-height: 1.71;
 	color: var(--secondary-color);
+	width: 270px;
 }
 
 .jobs-section {
+	margin: 0px;
 	padding: 94px 0;
 }
 
@@ -270,17 +311,20 @@ ul {
 	letter-spacing: 0.03em;
 	text-align: center;
 	color: var(--main-color);
+	margin-bottom: 50px;
 }
 
 .jobs-list {
 	display: flex;
-	justify-content: space-around;
+	gap: 30px;
+	justify-content: center;
 }
 
 .staff-section {
 	padding-top: 94px;
 	padding-bottom: 50px;
 	height: 648px;
+	margin: 0px;
 	background-color: var(--button-background-color);
 }
 
@@ -294,15 +338,21 @@ ul {
 
 .workplace-list {
 	display: flex;
-	justify-content: space-around;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
 }
 
 .workplace {
 	background-color: var(--secondary-background-color);
 	border-radius: 10px;
 	text-align: center;
-	width: 270px;
-	height: 368px;
+}
+
+.staff-workplace {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
 }
 
 .staff-names {
@@ -311,6 +361,7 @@ ul {
 	line-height: 1.18;
 	letter-spacing: 0.03em;
 	color: var(--main-color);
+	margin-bottom: 10px;
 }
 
 .staff-position {
