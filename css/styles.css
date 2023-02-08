@@ -324,9 +324,6 @@ ul {
 }
 
 .staff-section {
-	padding-top: 94px;
-	padding-bottom: 50px;
-	height: 648px;
 	margin: 0px;
 	background-color: var(--button-background-color);
 }
@@ -337,6 +334,7 @@ ul {
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 .workplace-list {
@@ -349,7 +347,6 @@ ul {
 .workplace {
 	background-color: var(--secondary-background-color);
 	border-radius: 10px;
-	text-align: center;
 }
 
 .staff-workplace {
@@ -397,7 +394,7 @@ a:active {
 	padding-bottom: 60px;
 }
 
-.address {
+address {
 	font-style: normal;
 	margin-top: 20px;
 }
@@ -413,6 +410,10 @@ a:active {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+.contacts-lists:not(:last-child) {
+	margin-bottom: 9px;
 }
 
 .contact-mail-footer:hover,
