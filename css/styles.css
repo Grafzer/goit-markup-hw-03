@@ -66,9 +66,7 @@ body {
 	display: flex;
 	height: 80px;
 	align-items: center;
-
 	border-bottom: 1px solid var(--secondary-background-color);
-	/* background-color: var(--temporary-color); */
 }
 
 .logo-header {
